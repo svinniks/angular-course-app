@@ -6,15 +6,15 @@
 
         <div class="navbar-default">
             <ul class="nav navbar-nav">
-                <li><a href="#" (click)="onRecipe()">Recipes</a></li>
-                <li><a href="#" (click)="onShoppingList()">Shopping List</a></li>
+                <li routerLinkActive="active"><a routerLink="/recipes">Recipes</a></li>
+                <li routerLinkActive="active"><a routerLink="/shopping-list">Shopping List</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown" appDropdown>
-                    <a href="#" class="dropdown-toggle" role="button">Manage <span class="caret"></span></a>
+                    <a class="dropdown-toggle" role="button">Manage <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Save data</a></li>
-                        <li><a href="#">Load data</a></li>
+                        <li><a >Save data</a></li>
+                        <li><a >Load data</a></li>
                     </ul>
                 </li>
             </ul>
